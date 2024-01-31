@@ -14,7 +14,7 @@ from phonenumbers import carrier
 service = phonenumbers.parse(number)
 print(carrier.name_for_number(service, "en")) ## mostra o operadora do seu numero
 
-chave = "786be8889c364dcc90bb9a067de3d25b"
+chave = "sua chave de api do open cage"
 geocoder = OpenCageGeocode(chave)
 query = str(location)
 results = geocoder.geocode(query)
